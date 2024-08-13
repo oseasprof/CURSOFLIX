@@ -13,7 +13,7 @@ header{
     color: rgb(20, 237, 245);
 }
 
-section{
+.descricao-text{
     background: rgb(224, 171, 236);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -35,4 +35,15 @@ p{
 
 img{
     height: 200px;
+}
+
+.videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categorias{
+    padding-left: 20px;
+    padding-right: 20px;
 }
