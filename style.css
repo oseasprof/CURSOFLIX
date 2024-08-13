@@ -1,5 +1,25 @@
 body{
     color: black;
+    margin: 8px;
     background: rgb(202,7,245);
 background: linear-gradient(90deg, rgba(202,7,245,1) 0%, rgba(250,247,4,1) 48%, rgba(0,18,255,1) 100%);
+}
+
+header{
+    border-bottom: solid 2px rgb(20, 237, 245);
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(20, 237, 245);
+}
+
+section{
+    background: rgb(224, 171, 236);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.descricao{
+    margin-right: 5%;
 }
