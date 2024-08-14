@@ -1,6 +1,12 @@
 
-<<<<<<< HEAD
-=======
+body{
+    color:white;
+    background:black;
+    margin:0px;
+    font-family: "Permanent Marker", cursive;
+    margin-bottom:100px;
+}
+
 header{
     border-bottom: solid 2px rgb(20, 237, 245);
     font-size: 30px;
@@ -28,10 +34,6 @@ p{
     font-size: 18px;
 }
 
-img{
-    height: 200px;
-}
-
 .videos{
     display: flex;
     overflow-x: auto;
@@ -41,5 +43,19 @@ img{
 .categorias{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
 }
->>>>>>> f50ebe3824611a3932ce8e1da8a6531eae16243e
+
+.videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.videos img:hover{
+    opacity: 1.0;
+    border: 2px solid yellow;
+}
+
+.categorias h2{
+    color: rgb(20, 237, 245)
+}
