@@ -1,11 +1,6 @@
-body{
-    color: black;
-    margin: 8px;
-    background: rgb(202,7,245);
-background: linear-gradient(90deg, rgba(202,7,245,1) 0%, rgba(250,247,4,1) 48%, rgba(0,18,255,1) 100%);
-    font-family: "Indie Flower", cursive;
-}
 
+<<<<<<< HEAD
+=======
 header{
     border-bottom: solid 2px rgb(20, 237, 245);
     font-size: 30px;
@@ -47,3 +42,4 @@ img{
     padding-left: 20px;
     padding-right: 20px;
 }
+>>>>>>> f50ebe3824611a3932ce8e1da8a6531eae16243e
